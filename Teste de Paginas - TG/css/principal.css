@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.top-bar {
+    font-size: 20px;
+    background-color: #DA823A;
+    padding: 40px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url('../assets/bg_nav.png');
+    background-size:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-icon img, .search-bar img {
+    width: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.main-profiles {
+    padding: 20px;
+}
+
+.main-profiles h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    image-rendering: auto;
+}
+
+.profile-info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.profile-icons img {
+    justify-content: space-between;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offers {
+    padding: 20px;
+}
+
+.offers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.offer-item {
+    text-align: center;
+    width: 200px; /* Tamanho fixo para manter consistência */
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.offer-item:hover{
+    transform: scale(1.05); /* Efeito de hover */
+}
+
+.offer-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Consistência com os cards */
+}
+
+.offer-item p, a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.top-bar {
+    font-size: 20px;
+    background-color: #DA823A;
+    padding: 40px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url('../assets/bg_nav.png');
+    background-size:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-icon img, .search-bar img {
+    width: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.category-section {
+    margin: 30px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.category-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    width: 70%;
+}
+
+.profile-info p, a {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+}
+
+.skills img {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+}

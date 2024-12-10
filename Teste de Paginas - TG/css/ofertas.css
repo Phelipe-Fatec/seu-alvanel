@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.top-bar {
+    font-size: 20px;
+    background-color: #DA823A;
+    padding: 40px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url('../assets/bg_nav.png');
+    background-size:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-icon img {
+    width: 24px;
+}
+.search-bar img {
+    width: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+
+/* Estilo para Ofertas e Parceiros */
+.offers, .partners {
+    padding: 20px;
+}
+
+.offers h2, .partners h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.offers-container, .partners-container {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.offer-item, .partner-item {
+    text-align: center;
+    width: 200px; /* Tamanho fixo para manter consistência */
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.offer-item:hover, .partner-item:hover {
+    transform: scale(1.05); /* Efeito de hover */
+}
+
+.offer-item img, .partner-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Consistência com os cards */
+}
+
+.offer-item p, a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.partner-item p, a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.partner-item img {
+    width: 100%;
+    border-radius: 8px; /* Imagens dos parceiros com bordas arredondadas */
+}

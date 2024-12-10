@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/bg_img.png');
+    background-size: cover;
+    background-attachment:local;
+}
+
+.header {
+    background-color: #f37924;
+    height: 150px;
+    background-image: url('tools-banner.png'); /* Adicione a imagem das ferramentas aqui */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    margin-top: -50px; /* Para que a caixa suba um pouco, sobrepondo o header */
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.input-wrapper img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    font-size: 14px;
+}
+
+.btn-login {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f37924;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-login:hover {
+    background-color: #d86720;
+}
+
+.forgot-password {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.forgot-password a {
+    color: #f37924;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
